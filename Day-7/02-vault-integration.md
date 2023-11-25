@@ -35,6 +35,8 @@ wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/sha
 gpg --no-default-keyring --keyring /usr/share/keyrings/hashicorp-archive-keyring.gpg --fingerprint
 ```
 
+Certainly! This command is basically telling GPG to reveal the fingerprint of the key stored in the HashiCorp keyring file. Fingerprint verification is a method to make sure that the key you have is the correct one, providing an extra layer of security when working with cryptographic keys.
+
 **Add the HashiCorp repo**
 
 ```

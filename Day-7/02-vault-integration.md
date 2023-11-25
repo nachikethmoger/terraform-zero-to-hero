@@ -28,6 +28,7 @@ sudo apt update && sudo apt install gpg
 ```
 wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
 ```
+In simpler terms, the entire command is fetching a GPG key from HashiCorp's website, converting it into a format that can be easily stored and used by a package manager, and saving it in a specific file (hashicorp-archive-keyring.gpg) on your system. This keyring is often used to verify the authenticity of packages provided by HashiCorp when you install software from their repository using a package manager.
 
 **Verify the key's fingerprint**
 
